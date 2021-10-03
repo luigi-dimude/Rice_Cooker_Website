@@ -1,0 +1,119 @@
+/* Teams */
+
+#team {
+    padding: 3em 0;
+  }
+#team a {
+  font-weight: bold;
+  }
+  #team h1 {
+    margin-bottom: .5em;
+  }
+  
+  .team-member {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    /* border: 1px solid #333; */
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  }
+  
+  
+
+  .team-member ul li {
+    margin-bottom: 1.4em;
+    border-bottom: 1px solid #333;
+  }
+
+  /* .team-details {
+    display: flex;
+    padding: 3em;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace, sans-serif;
+  } */
+  
+.team-details img {
+  width: 20em;
+  margin-bottom: 2em;
+}
+
+.team-details p {
+  text-align: justify;
+  font-size: 1.4em;
+  line-height: 1.6;
+  font-family: monospace;
+}
+
+.team-details span {
+  color: #DEA56A;
+  font-weight: bold;
+}
+
+.team-details .error {
+  color: red;
+}
+
+
+/* Some adjustments to Laptop view */
+@media only screen and (max-width: 1350px) {
+  
+    /* .team-member img {
+      width: 90%;
+      height: 30em;
+    } */
+  
+  }
+
+/* Tablet -------------------------------------- */
+@media only screen and (max-width: 1070px) {
+  
+    /* .team-member img {
+      width: 90%;
+      height: 20em;
+      border: transparent;
+    } */
+  
+    figcaption span {
+      background-image: linear-gradient(to right,#DEA56A,#c99d6e);
+      color: #fff;
+      padding: .5em 1.5em;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1em;
+      margin-top: -1em;
+    }
+    
+  }
+
+
+/* Phone ------------------------------------------ */
+@media only screen and (max-width: 610px) {
+
+    /* .team-member {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 2em;
+    }
+  
+    .team-member section {
+      width: 100%;
+      padding: 2em;
+    } */
+  
+    #team h2 {
+      display: inline-block;
+      padding: 1em 2em 1em 2em;
+      background-image: linear-gradient(to right,#247dc4,#4294d8);
+      color: #fff;
+      font-size: 1em;
+      margin-bottom: 1em;
+      text-transform: uppercase;
+      margin-left: 17.5%;
+    }
+  
+  }

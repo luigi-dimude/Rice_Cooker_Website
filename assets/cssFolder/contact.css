@@ -1,0 +1,145 @@
+/* Contact section */
+#contact {
+    margin: auto auto;
+    padding: 5em;
+    max-width: 60%;
+  }
+  
+  #contact fieldset {
+    margin: .5em;
+    padding: .5em;
+    border: none;
+  }
+  #contact .form-group {
+    margin-bottom: 20px;
+  }
+  #contact label {
+    display: block;
+  }
+  #contact input, 
+  #contact textarea {
+  
+      width: 100%;
+      padding: 10px;
+      background-color: #f2f2f2;
+      font-family: monospace;
+      font-size: 1.5em;
+      color: #333;
+      outline: 0;
+      border: 1px #ddd solid;
+      border-radius: 16px 0 16px 0;
+      border-bottom: 1px solid #DEA56A;
+  }
+
+  .border-error {
+    border-bottom: 2px solid red !important;
+  }
+
+  #contact #form-btn input {
+    border-radius: 5px 0 5px 0;
+  }
+  #contact #check {
+    width: auto;
+  }
+
+  #contact #check-label { 
+    font-size: 1.1em;
+}
+  
+  #contact #date-form {
+    margin-top: 20px;
+  }
+  
+  #contact #gender-set label {
+    display: inline;
+  }
+  #contact #gender-set input {
+    width: 5%;
+    padding: 0;
+  }
+  
+  #contact #message-form {
+    margin-top: 1em;
+  }
+  
+  #form-btn > input {
+    width: 20%;
+    margin: .5em;
+    cursor: pointer;
+  }
+  
+  /* #contact h2 {
+    display: inline-block;
+    padding: 1.56em 2.937em 0.5em 0.937em;
+    background-image: linear-gradient(to right,#247dc4,#4294d8);
+    color: #fff;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+  } */
+  
+  #contact label, legend {
+    font-size: 1.5em;
+    color: #333;
+    font-family: monospace;
+  }
+  
+  #contact::placeholder {
+    font-family: monospace;
+    font-size: 1.1em;
+    color: #4e4e4e8a;
+  }
+  
+  #contact select {
+    background-color: #DEA56A;
+    font-size: 1.3em;
+    outline: none;
+    cursor: pointer;
+    font-family: monospace;
+    padding: .7em;
+    color: #FFF;
+    border-radius: 5px 0 5px 0;
+    border-bottom: 1px solid #333;
+  }
+  label.error {
+    float: right;
+    color: red !important;
+    font-size: 87.5%;
+}
+
+/* Date picker */
+.ui-widget-header {
+  border: 1px solid rgb(221, 221, 221);
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  background: #333 !important;
+  color: #FFF !important;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+  border: 1px solid #DEA56A !important;
+  background: #DEA56A !important;
+  color: #FFF !important;
+  font-family: 'Poppins',sans-serif !important;
+}
+
+
+  /* Smaller tablets */
+  @media only screen and (max-width: 1070px) {
+    #contact {
+      padding: 2em 0;
+      max-width: none;
+    }
+
+  }
+
+  @media only screen and (max-width: 610px) {
+    #form-btn > input {
+      width: 27%;
+    }
+
+    #contact h2 {
+      padding: 1.1em 2.0em 0.5em 0.9em;
+  }
+  
+  } 

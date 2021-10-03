@@ -1,0 +1,92 @@
+{"employees":[
+	{
+		"name":"Raito Yagami",
+		"title":"Chief Executive Officer",
+		"department": "General Management",
+		"bio":"Raito Yagami is chief executive officer and president of Ontake corporation, a position he has held since 2005. When he was declared CEO at relatively yound age of 43, he vowed to make Ontake a truly global company and solidfy its dominance in Japan. Under his leadership, Yagami has propelled Ontake to new heights and reduced reliance on the japanese market."
+	},
+	{
+		"name":"Ken Hiroshi",
+		"title":"Senior Vice President and General Counsel",
+		"department": "General Management",
+		"bio":"Ken Hiroshi is Ontake's general counsel as well as the senior VP of Legal and Global Security. He is part of the corporation's executive unit and overlooks majority of the company's legal issues, as well as the corporate governance."
+	},
+	{
+		"name":"Brendan Eich",
+		"title":"Head of Engineering",
+		"department": "Engineering Department",
+		"bio":"Brendan has been part of the team for the past 9 years. Though orgianlly from Canada, he graduated from Dartmouth with a Master of Engineering Management (MEM) degree back in 1995. Brendan has a wealth of experience from other well-known manufacturing companies including competitors. His engineering team has helped transform the company to what it is today."
+	},
+	{
+		"name":"Hikaru Nakamura",
+		"title":"Chief Financial Officer",
+		"department": "General Management",
+		"bio":"Hikaru has been with the company for a whopping 25 years. He started out as an accountant and slowly progressed to the top. He is considered as a loyal servant and is someone that knows the true history of the company. Graduated from University of Tokyo in the ealy 80s, Hikaru has a plethora of experience he brings to the company."
+	},
+	{
+		"name":"Naomi Osaka",
+		"title":"Head of Design",
+		"department": "Design Department",
+		"bio":"Naomi Osaka has been the new head of design since late november following the retirement of Aiko Hiroko, the former head of design. She graduated summa cum laude from Tokyo Institute of Technology back in 2007 and is excited to be part of the team."
+	},
+	{
+		"name":"Patrick Shyu",
+		"title":"Head of R&D",
+		"department": "Research and Development",
+		"bio":"Patrick brings a lot of innovation and energy to the team. He has been part of the company for well over 15 years and became the head of research and developement in 2016. His contributions has brought a lot of value to the company and is considered to be a key member to the company."
+	},
+	{
+		"name":"Juan Morita",
+		"title":"Chief Operational Officer",
+		"department": "General Management",
+		"bio":"Considered to be a workaholic by his peers, Juan has been with the company since the early 90s and his passion and drive has helped tranform the company. Now at age 67, Akio is looking to retire soon and has been grooming his successor for a couple of years."
+	},
+	{
+		"name":"Joe Rogan",
+		"title":"Chief Human Resource Officer",
+		"department": "Human Resource",
+		"bio":"Also, referred to as 'Big Joe' by his peers. Joe played an influential role in the general ban on work after 8pm which has been a major issue in japanese society. He also implemented an across-the-board 'lights out' policy at 10pm, significantly reducing the total amount of overtime across the company. "
+	},
+	{
+		"name":"Justin Kan",
+		"title":"Head of Marketing",
+		"department": "Marketing Department",
+		"bio":"Justin has been in the company for over 32 years and his contributions has not only transformed the company but the entire industry as well. He most recently led the effort to plan and execute Ontake's first-ever virtual Worldwide Conference."
+	},
+	{
+		"name":"Yuriko Koike",
+		"title":"Executive Vice President and Global Corporate Affairs Officer",
+		"department": "General management",
+		"bio":"She is the Executive Vice President and Global Corporate Affairs Officer and is an important figure of the Executive team. She was assigned to the Executive-Committee in 2005. Since 2011 she has been coordinating the philanthropy functions and Corporation's global communication."
+	},
+	{
+		"name":"David Blaine",
+		"title":"Head of Quality Assurance",
+		"department": "Quality Assurance",
+		"bio":"Graduated from University of Yale in 1993, David defined and promoted a quality mindset across the entire company. He often works with cross-departmental leaders to deliver high qulity products on schedule."
+	},
+	{
+		"name":"Wesley So",
+		"title":"Supply Chain Lead",
+		"department": "Operations department",
+		"bio":"Wesley at a yound age of 35 and often referred as the future of the company, oversees and manages the production of the company's product. He is involved every part from the aquisition of the raw materials to the finished product."
+	},
+	{
+		"name":"Mayumi Tanaka",
+		"title":"Sustainability Officer",
+		"department": "General Management",
+		"bio":"She graduated summa cum laude Harvard university at the young age of 19. She is highliy competent and well respected by her peers and brings a lot of value to the company. She collaborates with the cross-departmental leaders to ensure the company is capitalizing on opportunities to strategically advance sustainability and circular economy"
+	},
+	{
+		"name":"Tony Andela",
+		"title":"Chief Innovation Evangelist",
+		"department": "General Management",
+		"bio":"He has been with the company since late march, 2019. He leads and directs a small but talented global innovation evangelist community at the company which focuses on creative thinking and trains people on how to build a better future through technology."
+	},
+	{
+		"name":"Ryu Hoshi",
+		"title":"Bus driver",
+		"department": "Transport",
+		"bio":"A well-known and loved figure at the company since the 70s. Ryu resides at the head quarter in Osaka and now at age 70, still has no plans to retire."
+	}]
+}

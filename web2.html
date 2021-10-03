@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="http://12.42.204.30:7005/jTable/jquery.jtable.js"></script>
+<script src="http://12.42.204.30:7005/jTable/helpers.js"></script>
+<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/red/jtable.css" rel="stylesheet">
+
+<!-- Google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+ <!-- JS -->
+ <!-- <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> -->
+ <script src="assets/js/jquery.menu-plugin.js"></script>
+ <script src="assets/js/team.js"></script>
+ <link rel="stylesheet" href="assets/cssFolder/main.css" />
+
+<!--
+<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/gray/jtable.css" rel="stylesheet">
+<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/green/jtable.css" rel="stylesheet">
+<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/orange/jtable.css" rel="stylesheet">
+<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/blue/jtable.css" rel="stylesheet">
+<link href="http://12.42.204.30:7005/jTable/themes/metro/lightgray/jtable.css" rel="stylesheet">
+<link href="http://12.42.204.30:7005/jTable/themes/metro/red/jtable.css" rel="stylesheet">
+-->
+
+                                                <!-- Do not change the code above -->
+<link rel="stylesheet" href="css/main.css">
+<link href="assets/cssFolder/view_css/view.css" rel="stylesheet">     <!-- Modify myStyles.css to add additional styles or add your own stylesheet-->
+
+<title>VIEW2</title>                             <!-- Modify title for your application -->
+
+<script>
+	$(document).ready(function() {
+		$('#container1').jtable({
+			title : 'ORDERS',              <!-- Change title for the output -->
+			paging : true,                      <!-- "true" allows paging through the grid -->
+			pageSize : 15,                      <!-- Specify page size -->
+			sorting : true,                     <!-- "true" allows sorting by columns -->
+			defaultSorting : 'order_id', <!-- Default sort column(s) on initial load -->
+			actions : {
+				listAction : 'genJson2.rpgle?jtView=web2v'  <!-- Change "carsV1" to your view name -->
+			},
+			fields : {                          <!-- Modify the grid components -->
+				first_name : {
+					title : 'FIRST_NAME',
+					width : '10%',
+					list : true
+				},
+				last_name : {
+					title : 'LAST_NAME',
+					width : '10%',
+					list : true
+				},
+				order_date : {
+					title : 'ORDER_DATE',
+					width : '10%',
+					list : true
+				},
+				order_id : {
+					title : 'ORDER_ID',
+					width : '10%',
+					list : true,
+				},
+				product_id : {
+					title : 'PRODUCT_ID',
+					width : '10%',
+					list : true,
+				},
+				description : {
+					title : 'DESCRIPTION',
+					width : '20%',
+					list : true,
+				},
+				quantity : {
+					title : 'QUANTITY',
+					width : '10%',
+					list : true,
+				},
+				unit_price : {
+					title : 'UNIT_PRICE',
+					width : '10%',
+                    list : true,
+				},
+				extended_price : {
+					title : 'EXTENDED_PRICE',
+					width : '10%',
+                    list : true,
+				},
+			}
+		});                                     <!-- Do not change the code below -->
+		$('#container1').jtable('load');
+	});
+</script>
+</head>
+
+<body>
+	<div id="navbar">
+		<div class="myContainer">
+		  <header>
+			<a href="index.html"><img src="images/logoTest.PNG" alt="ONTAKE"></a>
+		  </header>
+  
+		  <!-- Use the nav area to add hyperlinks to other pages within the website -->
+		  <nav>
+			<ul>
+			  <li><a class="cool-link" href="index.html">Home.</a></li>
+			  <li><a class="cool-link" href="about.html">About.</a></li>
+			  <li><a class="cool-link" href="team.html">Our Team.</a></li>
+			  <li><a class="cool-link" href="specials.html">Specials.</a></li>
+			  <li><a class="cool-link" href="gallery.html">gallery.</a></li>
+			  <li><a class="cool-link" href="training.html">Training.</a></li>
+			  <li class="dropdown">
+				  <a  class="cool-link" href="#">Reports.</a>
+				<div class="dropdown-content">
+					<ul>
+					<li><a href="web1.html">View 1</a></li>
+					<li><a href="web2.html">View 2</a></li>
+					<li><a href="web3.html">View 3</a></li>
+					<li><a href="web4.html">View 4</a></li>
+					</ul>
+				</div>
+			  </li>
+			  <li><a class="nav-btn" href="contact.html">Contact Us</a></li>
+			</ul>
+		  </nav>
+		</div>
+	  </div>
+  <div id="container1"></div>
+  <footer>
+	<p>&copy; 2020. All Rights Reserved.<br>
+	  <a href="mailto:info@ontake.com">Request information</a><br>
+	  c0799030</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,299 @@
+/* About Us page */
+#about {
+    padding: 3em 0;
+  }
+  
+  /* About Ontake */
+  #about #about-ontake {
+background-color: #FFF;
+  }
+  #about-ontake img {
+    width: 30em;
+    height: auto;
+    border: 3px solid #DEA56A;
+    padding: .7em;
+    /* margin-right: 7em; */
+    margin-left: 9.5em;
+  }
+  #about-ontake .about-ontake-text {
+    padding-top: 5em;
+
+    margin-right: 9em;
+  }
+  #about-ontake .about-ontake-text {
+    width: 60em;
+  }
+
+  /* Company profile */
+
+  .ui-widget-header {
+    border: 1px solid #DEA56A;
+    background: #f2f2f2;
+    color: #333333;
+    font-weight: bold;
+    display: flex;
+    justify-content:space-around;
+    font-family: 'poppins', sans-serif;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  /* float: left; */
+  padding: 1em 1em;
+  /* text-decoration: none; */
+}
+.ui-tabs .ui-tabs-nav li {
+  border-radius: 1px;
+  background: #FFF;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, 
+.ui-button:active, .ui-button.ui-state-active:hover,.ui-tabs-nav li.ui-tabs-active {
+  border: 1px solid transparent;
+  background: #333;
+  font-weight: bold;
+  color: #FFF;
+}
+.ui-widget.ui-widget-content {
+  border: 1px solid #DEA56A;
+}
+
+
+
+
+
+
+/* ----------------------------------------------- */
+
+  
+
+
+
+
+  /* About us header - desktop view */
+  #company {
+    /* background: #f2f2f2; */
+    padding-bottom: 3em;
+  }
+  #about h2 {
+    font-size: 1.3em;
+    margin: 2em 0 -3em 2em;
+    display: inline-block;
+    padding: 1.56em 2.937em 0.5em 0.937em;
+    background-image: linear-gradient(to right,#247dc4,#4294d8);
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  #about .card {
+    padding: 3em;
+    border-radius: 3.2em;
+    box-shadow: 0px .3em 1.8em rgba(32, 27, 94, 0.3);
+    overflow: hidden;
+    margin-bottom: 2em;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* About us paragraph - desktop view */
+  #about p {
+    text-align: justify;
+    font-size: 1.4em;
+    line-height: 1.6;
+    font-family: monospace;
+    
+  }
+  
+  #about #video {
+    margin: 4em;
+    padding-right: 2.5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #about #video video {
+    outline: 3px solid #DEA56A;
+  }
+
+  #about #video .videoStyle {
+    width: 43.75em;
+  }
+
+  #display-ease {
+    font-size: 6em;
+    display: none;
+  }
+
+  #company {
+    display: none;
+  }
+
+
+  /* Some adjustments to Laptop view */
+@media only screen and (max-width: 1350px) {
+    #about .myContainer {
+      max-width: 1200px;
+    }
+    #about #video .videoStyle {
+      width: 35.75em;
+    }
+    #display-ease {
+      font-size: 5em;
+
+  }
+
+    #about-ontake img {
+
+      margin-left: 0em;
+  }
+
+  #about-ontake .about-ontake-text {
+    margin-right: 0em;
+    /* margin-left: 2em; */
+  }
+
+  #about .myContainer {
+    max-width: 1100px;
+  }
+  #company {
+    display: none;
+  }
+
+  }
+
+
+
+/* Tablet -------------------------------------- */
+@media only screen and (max-width: 1070px) {
+    
+    #founder > .myContainer {
+      flex-direction: column;
+    }
+  
+    #about .myContainer {
+      max-width: 900px;
+    }
+  
+    #about #founder {
+      padding: 3em 0;
+    }
+  
+    #founder .founder-text {
+      margin-top: 2em;
+    }
+  
+    #founder .founder-text h1 {
+      font-size: 3em;
+    }
+  
+    #founder .founder-text p {
+      font-size: 2em;
+      padding: 1.2em;
+    }
+  
+    #founder .founder-image {
+      margin: 0 auto;
+    }
+  
+    #about h2 {
+      font-size: 1.3em;
+      margin: 2em 0 -3em 16em;
+      background-image: none;
+      background-color: #247dc4;
+      color: #f2f2f2;
+      border-radius: 16px 0 16px 0;
+    }
+  
+    #about .card {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+  
+    #about #video .videoStyle {
+      width: 29.75em;
+  }
+
+    #about-ontake img {
+      width: 25em; 
+    }
+
+    #company {
+      display: none;
+    }
+  
+  
+  }
+
+
+  /* Smaller tablets */
+@media only screen and (max-width: 1070px) {
+
+    #about .myContainer {
+      max-width: 600px;
+    }
+    #about h2 {
+      font-size: 1.3em;
+      margin: 2em 0 -3em 2em;
+      padding: 1.56em 2.937em 0.5em 0.937em;
+    }
+
+    #company {
+      display: none;
+    }
+  }
+
+
+  /* Phone ------------------------------------------ */
+@media only screen and (max-width: 610px) {
+  
+    #video h1 {
+      width: 100%;
+      text-align: center;
+      color: #333;
+      text-transform: uppercase;
+      margin-bottom: 1em;
+    }
+  
+    #about #video video {
+      outline: 2px solid #333;
+    }
+
+    #company-profile {
+      display: none;
+    }
+    #about #video {
+      display: none;
+    }
+    
+  
+    #company {
+      background-color: #DEA56A;
+      padding: 2em;
+      display: block;
+    }
+  
+    #company h3 {
+      color: #FFF;
+      text-align: center;
+      width: 100%;
+      padding: .5em;
+      font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    }
+    
+    #company .mobile-text {
+      font-size: 1em;
+      color: #f2f2f2;
+      font-weight: bold;
+      margin-bottom: 2EM;
+      font-family: monospace, sans-serif;
+    }
+    #company .mobile-text p {
+      line-height: 2;
+    }
+
+    #about-ontake img {
+      margin-left: 0em;
+  }
+  }

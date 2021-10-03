@@ -1,0 +1,46 @@
+
+body {
+  background-color: #E0E0E0;
+}
+
+#container1 {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: #DEA56A;
+    border-width: 0px 0px 16px 0px;
+}
+
+table, th, tr, td {
+border: 1px solid #DEA56A;
+border-collapse: collapse;
+}
+
+table th {
+background: #E8E8E8;
+color: #DEA56A;
+}
+
+th, td {
+padding: 15px;
+text-aligh: left;
+}
+
+div.jtable-main-container div.jtable-title {
+    background: #DEA56A;
+    background: -moz-linear-gradient(top, #DEA56A 0%, #da9750 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #247dc4), color-stop(100%, #2b78b8));
+    background: -webkit-linear-gradient(top, #DEA56A 0%, #da9750 100%);
+    background: -o-linear-gradient(top, #DEA56A 0%, #da9750 100%);
+    background: -ms-linear-gradient(top, #DEA56A 0%, #da9750 100%);
+    background: linear-gradient(to bottom, #DEA56A 0%, #da9750 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#247dc4', endColorstr='#2b78b8', GradientType=0);
+    border-color: #80572c;
+}
+
+tr:nth-child(even) {background: #f2f2f2;}
+
+tr:nth-child(odd) {background: rgba(184, 224, 73, 0.911);}
+
+

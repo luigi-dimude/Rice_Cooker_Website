@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONTAKE | Rice Cookers</title>
+     <!-- Google fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- JS -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+	  <script src="assets/js/jquery.validate.min.js"></script>
+	  <script src="assets/js/additional-methods.min.js"></script>	
+    <script src="assets/js/jquery.menu-plugin.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+	  <script src="assets/js/contact.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/cssFolder/main.css" />
+    <link rel="stylesheet" href="assets/cssFolder/contact.css" />
+  </head>
+  <body>
+
+
+    <div id="navbar">
+      <div class="myContainer">
+        <header>
+          <a href="index.html"><img src="images/logoTest.PNG" alt="ONTAKE"></a>
+        </header>
+
+        <!-- Use the nav area to add hyperlinks to other pages within the website -->
+        <nav>
+          <ul>
+            <li><a class="cool-link" href="index.html">Home.</a></li>
+            <li><a class="cool-link" href="about.html">About.</a></li>
+            <li><a class="cool-link" href="team.html">Our Team.</a></li>
+            <li><a class="cool-link" href="specials.html">Specials.</a></li>
+            <li><a class="cool-link" href="gallery.html">gallery.</a></li>
+            <li><a class="cool-link" href="training.html">Training.</a></li>
+            <li class="dropdown">
+                <a  class="cool-link" href="#">Reports.</a>
+              <div class="dropdown-content">
+                  <ul>
+                  <li><a href="web1.html">View 1</a></li>
+                  <li><a href="web2.html">View 2</a></li>
+                  <li><a href="web3.html">View 3</a></li>
+                  <li><a href="web4.html">View 4</a></li>
+                  </ul>
+              </div>
+            </li>
+            <li><a class="nav-btn" href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+      <main>
+        <section id="contact">
+            <form id="ontake-form" action="response.html" method="get">
+                <h1 class="title"><span class="title-first-letter">C</span>ontact Us!</h1>
+
+                <fieldset">
+                    <div class="form-group">
+                        <label for="fName">First Name</label>
+                        <input type="text" name="fName" class="field" id="fName" required autofocus> 
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lName">Last Name</label>
+                        <input type="text" name="lName" class="field" id="lName" required> 
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" class="field" id="email" required> <span></span>
+                    </div>
+                    <div class="form-group">
+                        <label id="check-label" for="check">I give my consent to to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</label>
+                        <input type="checkbox" name="checkbox" id="check"> 
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" class="field" id="phone" placeholder="813456789"> <span></span>
+                    </div>
+                </fieldset>
+
+                <fieldset id="gender-set">
+                    <legend>Gender</legend>
+                    <div class="form-group">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male" checked>
+
+					          <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    
+                    <label for="other">Other</label>
+					          <input type="radio" id="other" name="gender" value="other">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Region</legend>
+					<select name="region">
+						<option value="1">Hokkaido</option>
+						<option value="2">Tohoku</option>
+						<option value="3">Kanto</option>
+						<option value="4">Chubu</option>
+						<option value="5">Kinki</option>
+						<option value="6">Chugoku</option>
+						<option value="7">Shikoku</option>
+						<option value="8">Kyushu</option>
+                    </select>
+                    
+                    <div class="form-group" id="date-form"> 
+                        <label for="date">Message Date</label>
+                        <input type="input" id="date" name="date"  onkeydown="return false" autocomplete="off">
+                    </div>
+                </fieldset>
+
+
+                <fieldset id="message-form">
+                    <legend>Message</legend>
+                    <div class="form-group">
+                        <textarea class="field" id="message" name="message" rows="15" required></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset id="form-btn">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+      </main>
+      
+      <footer>
+        <p>&copy; 2020. All Rights Reserved.<br>
+          <a href="mailto:info@ontake.com">Request information</a><br>
+          c0799030</p>
+      </footer>
+
+  </body>
+</html>
