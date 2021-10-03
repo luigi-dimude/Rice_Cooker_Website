@@ -1,2 +1,5 @@
 # Rice_Cooker_Website
 A fully responsive multi-page website for a fictitious rice cooker company that allows users to view information about the company and its products. 
+
+# Pages 
+![image](https://user-images.githubusercontent.com/33835722/135768802-7e9bbeda-8a04-4f85-b6a9-22b9f19688ab.png)
